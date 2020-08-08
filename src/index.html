@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=5, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--link rel="stylesheet" type="text/css" href="/styles.css"-->
+   
+       <href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">	
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+    
+    <title>Formularios Primer parcial</title>
+</head>
+<body>
+    
+    <form id="form">
+        <div class="row">
+          <div class="col">
+            <label id="labelNombre" for="inputNombre">Nombre</label>
+            <input id="nombreInput" type="text" class="form-control" placeholder="Nombre">
+          </div>
+          <div class="col">
+            <label id="labelApellido" for="inputApellido">Apellido</label>
+            <input id="apellidoInput" type="text" class="form-control" placeholder="Apellido">
+          </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+              <label id="labelEmail" for="inputEmail4">Email</label>
+              <input id="emailInput" type="email" class="form-control" id="inputEmail4" placeholder="kafka@ejemplo.com">
+            </div>
+            <div class="form-group col-md-6">
+              <label id="labelPassword" for="inputPassword4">Password</label>
+              <input id="passwordInput" type="password" class="form-control" id="inputPassword4" placeholder="Password">
+            </div>
+          </div>
+          <div class="form-group">
+            <label id="labelDireccion" for="inputAddress">Direccion</label>
+            <input id="direccionInput" type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="form-group">
+            <label id="labelDPI" for="inputAddress2">Numero de documento de identificacion</label>
+            <input id="dpiInput" type="text" class="form-control" id="inputAddress2" placeholder="0123456789">
+          </div>
+          <label id="tPago" for="inputAddress">Tipo de Pago</label>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+            </div>
+            <select id="sPago" class="custom-select" id="inputGroupSelect01">
+              <option selected>Choose...</option>
+              <option value="1">Tarjeta de credito</option>
+              <option value="2">Tarjeta de debito</option>
+              <option value="3">Paypal</option>
+              <option value="3">Otro</option>
+            </select>
+          </div>
+            <label id="nTarjeta" for="inputAddress">Numero de Tarjeta</label>
+            <div>
+            <input id="numTarjetaInput" type="text" class="form-control" id="inputAddress2" placeholder="0123456789">
+          </div>
+          <label id="labelPagar" for="inputcantidad">Cantidad a pagar</label>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text">$</span>
+            </div>
+            <input id="pagoInput" type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+            <div class="input-group-append">
+              <span class="input-group-text">.00</span>
+            </div>
+          </div>
+          <div class="selection" id="TyC"></div>
+          <button id="terminos" type="button" class="btn btn-warning">Terminos y Condiciones</button>
+          <button id="payButton" type="button" class="btn btn-secondary btn-lg" onclick="validarFormulario()">Pagar</button>
+      </form>
+      <script src="./app.js"></script>
+</body>
+</html>

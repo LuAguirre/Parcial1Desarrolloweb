@@ -1,0 +1,181 @@
+#labelNombre { 
+ text-align: center; 
+color: rgb(101, 178, 233); 
+padding-left: 100px;
+padding: 10px;
+width: 100%;
+margin: auto
+}
+
+#labelPagar { 
+ text-align: center; 
+color: rgb(101, 178, 233); 
+padding-left: 100px;
+padding: 10px;
+width: 100%;
+margin: auto
+}
+
+
+#labelEmail { 
+text-align: center; 
+color: rgb(101, 178, 233); 
+padding: 10px;
+width: 100%;
+margin: auto
+}
+
+#labelPassword { 
+text-align: center; 
+color: rgb(101, 178, 233); 
+padding-left: 100px;
+padding: 10px;
+width: 100%;
+margin: auto
+}
+
+#labelDireccion { 
+text-align: center; 
+color: rgb(101, 178, 233); 
+padding: 10px;
+width: 100%;
+margin: auto
+}
+
+#labelDPI { 
+text-align: center; 
+color: rgb(101, 178, 233); 
+padding: 10px;
+width: 100%;
+margin: auto
+}
+
+#labelApellido { 
+text-align: center; 
+color: rgb(101, 178, 233); 
+padding-left: 100px;
+padding: 10px;
+width: 100%;
+margin: auto
+}
+
+#nTarjeta { 
+text-align: center; 
+color: rgb(101, 178, 233); 
+padding-left: 100px;
+padding: 10px;
+width: 100%;
+margin: auto
+}
+
+#tPago { 
+color: rgb(101, 178, 233); 
+padding-left: 100px;
+padding: 10px;
+width: 100%;
+margin: auto
+}
+
+#sPago {
+border: skyblue;
+border-style: double;
+padding: 1px;
+width: 70px;
+margin: auto;
+}
+
+#numTarjetaInput {
+text-align: center;
+border: skyblue;
+border-style: double;
+padding: 10px;
+width: 95%;
+margin: auto;
+}
+
+#nombreInput {
+text-align: center;
+border: skyblue;
+border-style: double;
+padding: 10px;
+width: 90%;
+margin: auto;
+}
+
+#emailInput {
+text-align: center;
+border: skyblue;
+border-style: double;
+padding: 10px;
+width: 90%;
+margin: auto;
+}
+
+#passwordInput {
+text-align: center;
+border: skyblue;
+border-style: double;
+padding: 10px;
+width: 90%;
+margin: auto;
+}
+
+
+
+#apellidoInput {
+text-align: center;
+border: skyblue;
+border-style: double;
+padding: 10px;
+width: 90%;
+margin: auto;
+}
+
+#direccionInput { 
+text-align: center; 
+border: skyblue;
+border-style: double;
+padding-left: 100px;
+padding: 10px;
+width: 95%;
+margin: auto
+}
+
+#dpiInput { 
+text-align: center; 
+border: skyblue;
+border-style: double;
+padding-left: 100px;
+padding: 10px;
+width: 95%;
+margin: auto
+}
+
+#pagoInput { 
+font-family: fantasy;
+text-align: center; 
+border: skyblue;
+border-style: double;
+padding-left: 100px;
+padding: 10px;
+width: 70%;
+margin: auto
+}
+
+#terminos{
+font-family: sans-serif;
+padding: 10px;
+width: 20%;
+}
+
+#payButton{
+font-family: sans-serif;
+padding: 10px;
+width: 20% 
+}
+
+#TyC{
+font-family:  Arial;
+font-size: 20px;
+color: cadetblue;
+}
